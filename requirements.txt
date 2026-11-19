@@ -1,0 +1,7 @@
+# Versions explicitly recorded in the supplied script and report.
+torch==2.8.0
+torchvision==0.23.0
+numpy==2.0.2
+matplotlib==3.9.4
+seaborn==0.13.2
+scikit-learn==1.6.1

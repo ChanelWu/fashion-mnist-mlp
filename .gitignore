@@ -1,0 +1,32 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+# Credentials and local editor/OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.vscode/
+.idea/
+.DS_Store
+# Downloaded datasets, caches, weights, and generated run outputs
+data/
+.cache/
+.matplotlib/
+*.pth
+*.pt
+batch_losses.csv
+training_history.csv
+test_metrics.json
+test_classification_report.csv
+test_results.txt
+/fashion_mnist_samples.png
+/training_validation_loss.png
+/training_validation_accuracy.png
+/test_confusion_matrix.png
